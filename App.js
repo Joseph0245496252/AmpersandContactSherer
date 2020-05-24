@@ -115,9 +115,10 @@ export default function App() {
               backgroundColor: "red"
             },
             headerTitleAlign: "center",
-            headerTintColor: "whitesmoke",
+            headerTintColor: "white",
             headerStyle: {
-              backgroundColor: "#f7027d"
+            backgroundColor: "red",
+            height: 150
             },
 
         
@@ -134,10 +135,10 @@ export default function App() {
               letterSpacing: 1,
             },
             headerTitleAlign: "center",
-            headerTintColor: "whitesmoke",
+            headerTintColor: "white",
             headerStyle: {
-              backgroundColor: "#f7027d",
-              height: 100,
+              backgroundColor: "red",
+              height: 150,
             },
             title: "Member Profile",
           }}

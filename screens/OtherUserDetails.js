@@ -18,8 +18,8 @@ export default class UserDetails extends Component {
         <View style={styles.contact__container}>
           <Image source={person} style={styles.person__image} />
           <View style={styles.person__details}>
-            <Text style={styles.person__details__text1}>Monalisa</Text>
-            <Text style={styles.person__details__text2}>Photo Model</Text>
+            <Text style={styles.person__details__text1}>Miss Nana Yaa</Text>
+            <Text style={styles.person__details__text2}>Front End Developer</Text>
           </View>
         </View>
         <View style={styles.icons}>
@@ -50,19 +50,19 @@ export default class UserDetails extends Component {
         </View>
         <View style={styles.main__details}>
           <View style={styles.main__details__section}>
-            <Feather name="phone" size={20} color="white" />
+            <Feather name="phone" size={20} color="red" />
             <Text style={styles.main__details__text}>+39 (000) 786 419</Text>
           </View>
         </View>
         <View style={styles.main__details}>
           <View style={styles.main__details__section}>
-            <MaterialIcons name="email" size={20} color="white" />
+            <MaterialIcons name="email" size={20} color="red" />
             <Text style={styles.main__details__text}>mona@lisa.com</Text>
           </View>
         </View>
         <View style={styles.main__details}>
           <View style={styles.main__details__section}>
-            <Entypo name="location-pin" size={20} color="white" />
+            <Entypo name="location-pin" size={20} color="red" />
             <Text style={styles.main__details__text}>Rome, Italy</Text>
           </View>
         </View>
@@ -75,18 +75,21 @@ const styles = StyleSheet.create({
   main__details__section: {
     flexDirection: "row",
   },
+
+  container: {
+    backgroundColor: "#ffdd",
+    flex: 1,
+  },
+
   main__details__text: {
-    color: "whitesmoke",
+    color: "blue",
     marginLeft: 30,
   },
   main__details: {
     marginTop: 30,
     marginHorizontal: 30,
   },
-  container: {
-    backgroundColor: "#000",
-    flex: 1,
-  },
+  
   person__image: {
     width: 40,
     height: 45,
@@ -106,7 +109,7 @@ const styles = StyleSheet.create({
     flex: 6,
   },
   person__details__text1: {
-    color: "whitesmoke",
+    color: "blue",
     fontSize: 17,
     fontWeight: "bold",
     letterSpacing: 1,

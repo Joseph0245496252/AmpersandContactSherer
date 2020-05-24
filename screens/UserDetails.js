@@ -19,7 +19,7 @@ export default class UserDetails extends Component {
           <Image source={person} style={styles.person__image} />
           <View style={styles.person__details}>
             <Text style={styles.person__details__text1}>Joseph Asante</Text>
-            <Text style={styles.person__details__text2}>CEO of CodeAfic</Text>
+            <Text style={styles.person__details__text2}>Software Developer</Text>
           </View>
         </View>
         <View style={styles.icons}>
@@ -70,7 +70,7 @@ export default class UserDetails extends Component {
             <TouchableOpacity onPress={() => {
                 navigation.navigate("OtherUserDetails");
               }}>
-            <AntDesign name="tag" size={24} color="red" />
+            <AntDesign name="tag" size={24} color="gold" />
             </TouchableOpacity>
         </View>
       </View>
