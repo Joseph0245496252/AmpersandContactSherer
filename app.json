@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AwesomeProjectAll",
-    "slug": "AwesomeProjectAll",
+    "name": "tenthNativeApp-contactSharer",
+    "slug": "tenthNativeApp-contactSharer",
     "platforms": [
       "ios",
       "android",
