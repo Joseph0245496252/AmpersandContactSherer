@@ -82,13 +82,13 @@ export default class QRcode extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#000",
+    backgroundColor: "#ffdd",
     flex: 1,
     flexDirection: "column",
   },
   logo: {
-    height: 35,
-    width: 200,
+    height: 45,
+    width: 250,
   },
   header__top: {
     marginVertical: 30,
@@ -101,14 +101,14 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   text__1: {
-    color: "whitesmoke",
+    color: "blue",
     marginTop: 40,
     fontWeight: "bold",
     fontSize: 18,
     letterSpacing: 2,
   },
   text__2: {
-    color: "grey",
+    color: "black",
     marginTop: 20,
     fontWeight: "bold",
     fontSize: 16,
@@ -140,24 +140,24 @@ const styles = StyleSheet.create({
     flex: 6,
   },
   person__details__text1: {
-    color: "whitesmoke",
+    color: "blue",
     fontSize: 17,
     fontWeight: "bold",
     letterSpacing: 1,
   },
   person__details__text2: {
-    color: "grey",
+    color: "black",
     fontSize: 15,
     fontWeight: "bold",
     letterSpacing: 1,
   },
   footer__text1: {
-    color: "whitesmoke",
+    color: "blue",
     justifyContent: "center",
     marginTop: 5,
   },
   footer__text2: {
-    color: "whitesmoke",
+    color: "black",
   },
   footer: {
     flexDirection: "row",
@@ -169,8 +169,9 @@ const styles = StyleSheet.create({
     borderColor: "#f7027d",
   },
   footer__text2: {
-    color: "#f7027d",
+    color: "red",
     paddingHorizontal: 20,
     paddingVertical: 5,
+    
   },
 });
