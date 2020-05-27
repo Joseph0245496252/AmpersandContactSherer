@@ -8,8 +8,7 @@ import HomePage from "./screens/HomePage";
 import Signin from "./screens/Signin";
 import Register from "./screens/Register";
 import QRcode from "./screens/QRcode";
-import { TouchableOpacity } from "react-native-gesture-handler";
-import logo from "./assets/images/img2.jpg";
+
 import QRcodeScanner from "./screens/QRcodeScanner";
 import UserDetails from "./screens/UserDetails";
 import Switcher from "./components/Switcher";
@@ -75,31 +74,9 @@ export default function App() {
           component={Signin}
         />
         <Stack.Screen
-          options={{
-            headerTintColor: "#fff",
-            headerTitleAlign: "center",
-            headerStyle: {
-            backgroundColor: "#000",
-            height: 100,
-            },
-            headerTitleStyle: {
-              fontWeight: "bold",
-              fontSize: 25,
-            },
-            headerTitle: () => {
-              return (
-                <View>
-                  <Image source={logo} style={styles.image} />
-                </View>
-              );
-            },
-            headerRight: () => {
-              return (
-                <View>
-                  <Switcher />
-                </View>
-              );
-            },
+         options={{
+            headerTitle: null,
+            headerStyle: { height: 0 },
           }}
           name="QRcode"
           component={QRcode}
@@ -121,7 +98,6 @@ export default function App() {
             height: 150
             },
 
-        
             title: "My Profile",
           }}
           name="UserDetails"
